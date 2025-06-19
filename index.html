@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fashion Stylist Pro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <header>
+    <div class="header-title">
+      <h1><span class="highlight">Fashion Stylist</span> <span class="highlight-pro">Pro</span></h1>
+    </div>
+    <div class="header-nav">
+      <nav>
+        <a href="#" onclick="showHome()">Home</a>
+        <a href="#" onclick="showTrends()">Trends</a>
+        <a href="#" onclick="showFavorites()">Favorites</a>
+        <a href="#" onclick="showAbout()">About</a>
+      </nav>
+    </div>
+  </header>
+  
+  
+  
+
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <p>Select a dress below to see matching accessories and jewelry that complement your style. Our AI analyzes color, style, and occasion to create the perfect look.</p>
+  </section>
+
+  <div class="container">
+    <h2>Find Your Perfect Match</h2>
+    <p>Select a dress below to discover the perfect accessories and jewelry.</p>
+    <div class="grid" id="dress-grid"></div>
+
+    <div class="results" id="result" style="display:none;">
+      <h2 id="selected-dress">You selected: </h2>
+      <h3>Recommended Accessories & Jewelry:</h3>
+      <div class="accessory-grid" id="accessories-container"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <h4>Fashion Stylist Pro</h4>
+      <p>Your personal outfit recommendation system. Find the perfect accessories and jewelry for any dress.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <p>Home</p>
+      <p>Trending Outfits</p>
+      <p>Style Guide</p>
+      <p>About Us</p>
+    </div>
+    <div>
+      <h4>Stay Updated</h4>
+      <p>Subscribe to our newsletter for the latest fashion trends and style tips.</p>
+      <input type="email" placeholder="Your email">
+      <button>Subscribe</button>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

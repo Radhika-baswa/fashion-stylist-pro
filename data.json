@@ -1,0 +1,40 @@
+{
+  "dresses": [
+    {
+      "name": "Elegant Pink Gown",
+      "tags": ["Formal", "Party"],
+      "icon": "👗",
+      "color": "deeppink",
+      "description": "Perfect for formal events and galas",
+      "accessories": [
+        { "icon": "💎", "name": "Pearl Necklace", "desc": "Elegant white pearls", "match": "125% Match" },
+        { "icon": "👠", "name": "Silver Heels", "desc": "Shiny silver stiletto heels", "match": "100% Match" },
+        { "icon": "👜", "name": "Pink Clutch", "desc": "Stylish evening clutch", "match": "90% Match" }
+      ]
+    },
+    {
+      "name": "Classic Black Dress",
+      "tags": ["Formal", "Work", "Party"],
+      "icon": "👗",
+      "color": "black",
+      "description": "Timeless for any occasion",
+      "accessories": [
+        { "icon": "💎", "name": "Diamond Earrings", "desc": "Subtle sparkle studs", "match": "100% Match" },
+        { "icon": "👠", "name": "Black Heels", "desc": "Classic black heels", "match": "125% Match" },
+        { "icon": "👜", "name": "Black Leather Bag", "desc": "Sleek leather purse", "match": "95% Match" }
+      ]
+    },
+    {
+      "name": "Sunshine Maxi Dress",
+      "tags": ["Casual", "Date"],
+      "icon": "👗",
+      "color": "goldenrod",
+      "description": "Bright and casual for summer",
+      "accessories": [
+        { "icon": "💎", "name": "Gold Hoop Earrings", "desc": "Trendy boho hoops", "match": "80% Match" },
+        { "icon": "👡", "name": "Woven Sandals", "desc": "Comfy summer sandals", "match": "100% Match" },
+        { "icon": "👜", "name": "Straw Tote Bag", "desc": "Perfect for summer", "match": "90% Match" }
+      ]
+    }
+  ]
+}
